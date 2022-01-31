@@ -34,20 +34,26 @@ a {
   color: #1ac888;
 }
 
-button {
-  color: white;
-  border: 0;
-  background: #326dee;
+.card {
+  display: block;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 0.75rem;
+}
+.card .card-body {
+  font-size: 1rem;
+}
+.card .card-body a {
+  text-decoration: underline;
+  color: #9b51e0;
 }
 
-.error {
-  color: #d32752;
-  border-color: #d32752;
-  border-style: solid;
-}
-
-.notification {
-  color: #1ac888;
-  border-color: #1ac888;
-  border-style: solid;
+.button {
+  color: #326dee;
 }
